@@ -2,9 +2,30 @@
 
 Decode analog, APT signals from the NOAA weather satellites.
 
-## Usage
+## Requirements
 
-Previously you need to resample your sound file to 20800Hz, then:
+- python 2
+-- not tested in Python 3
+- pip
+-- open a terminal console and type `pip` . 
+-- If you get an error, install `pip`:
+
+    sudo easy_install pip
+
+## Setup
+
+    pip install -r requirements.txt
+
+## Usage
+### Downsampling
+
+If your file is not at the correct sampling rate, resample it:
+
+    python resample.py soundfile.wav
+    
+You will obtain a file called `resampled.wav`
+
+### Decoding
 
     python apt.py soundfile.wav image_out.png
 
