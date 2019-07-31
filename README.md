@@ -23,7 +23,7 @@ If your file is not at the correct sampling rate, resample it:
 
     python resample.py soundfile.wav
     
-You will obtain a file called `resampled.wav`
+You will obtain a file called `resampled.wav` that you can use for decoding instead of the original `soundfile.wav`
 
 ### Decoding
 
