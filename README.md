@@ -10,7 +10,9 @@ Decode analog, APT signals from the NOAA weather satellites.
 -- open a terminal console and type `pip` . 
 -- If you get an error, install `pip`:
 
-    sudo easy_install pip
+
+    `sudo easy_install pip`
+
 
 ## Setup
 
